@@ -20,17 +20,39 @@ This project develops resilient communications infrastructure for emergency resp
 
 ```
 MANET/
-├── README.md                   # This file
-├── DEVELOPMENT_PLAN.md         # Complete development framework
-├── CLAUDE.md                   # Project-specific instructions
-├── references/                 # OSINT materials and standards
-├── docs/                       # Documentation and procedures
-├── src/                        # Source code and scripts
-├── hardware/                   # Hardware configs and specs
-└── incidents/                  # Incident-specific reports (OSINT standards)
+├── README.md                       # This file
+├── DEVELOPMENT_PLAN.md             # Complete development framework
+├── CONTRIBUTING.md                 # Git workflow and contribution guide
+├── CLAUDE.md                       # Project-specific instructions
+├── .claude/skills/manet.md         # MANET skill for Claude Code
+├── references/                     # OSINT materials and standards
+├── docs/                           # Documentation and procedures
+│   ├── FIRST_PROJECT_GUIDE.md      # Beginner tutorial (START HERE!)
+│   ├── QUICK_REFERENCE.md          # Command cheat sheet
+│   └── HARDWARE_SELECTION.md       # Hardware guide
+├── src/                            # Source code and scripts
+│   └── position_logger.py          # Example: GPS position logger
+├── hardware/                       # Hardware configs and specs
+└── incidents/                      # Incident-specific reports (OSINT standards)
 ```
 
 ## Quick Start
+
+### New to Meshtastic?
+
+**Start here!** 👉 [First Project Guide](docs/FIRST_PROJECT_GUIDE.md)
+
+Complete beginner-friendly tutorial that walks you through:
+- Choosing hardware
+- Setting up your first 2-node mesh network
+- Sending messages and tracking positions
+- Building your first Python application
+
+**Time:** 2-4 hours | **Cost:** $60-150
+
+Also check out the [Quick Reference Card](docs/QUICK_REFERENCE.md) for common commands.
+
+### For MANET Project Development
 
 ### Prerequisites
 - Python 3.8+
@@ -48,7 +70,7 @@ cd /Users/jeffjennings/Documents/MANET
 
 ### Initial Setup
 1. Review `DEVELOPMENT_PLAN.md` for complete development framework
-2. Check `references/` folder for OSINT standards and HDS materials
+2. Check `references/` folder for OSINT standards and materials
 3. Follow Phase 1 objectives to establish development environment
 4. Order hardware from approved vendor list (TBD in Phase 1)
 
