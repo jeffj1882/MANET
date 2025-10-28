@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+
+# Meshtastic
+*.protobufs
+meshtastic_*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Sensitive Data
+*.key
+*.pem
+*.p12
+credentials.json
+.env
+secrets/
+
+# Incident Data (may contain sensitive operational information)
+incidents/*
+!incidents/README.md
+!incidents/TEMPLATE.md
+
+# Reference Materials (may contain proprietary/restricted content)
+references/hds-procedures/*
+references/proprietary/*
+!references/README.md
+
+# Hardware Configs (may contain deployment-specific information)
+hardware/deployed-configs/*
+!hardware/README.md
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
