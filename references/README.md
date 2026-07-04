@@ -21,7 +21,7 @@ This directory serves as the authoritative source for:
 references/
 ├── README.md                          # This file
 ├── osint-standards/                   # OSINT documentation standards
-├── hds-procedures/                    # HDS training and procedures
+├── emergency-response-procedures/     # FEMA/ICS standards and procedures
 ├── meshtastic-docs/                   # Meshtastic technical references
 ├── lora-regulations/                  # Frequency regulations by region
 ├── incident-templates/                # Incident report templates
@@ -84,7 +84,7 @@ When adding materials to this folder:
 
 Some reference materials may be:
 - Proprietary to Improvised Electronics
-- Subject to HDS training access restrictions
+- Licensed or restricted distribution
 - Export-controlled technical data
 - Law enforcement sensitive information
 
