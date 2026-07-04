@@ -65,7 +65,7 @@ Also check out the [Quick Reference Card](docs/QUICK_REFERENCE.md) for common co
 pip install meshtastic
 
 # Clone or navigate to project
-cd /Users/jeffjennings/Documents/MANET
+cd /Users/jeffjennings/Projects/MANET
 ```
 
 ### Initial Setup
