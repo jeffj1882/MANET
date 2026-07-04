@@ -1,6 +1,8 @@
 # MANET - Meshtastic Development Project
 ## Improvised Electronics
 
+> **STATUS: PARKED** — Project stalled since 2025-10-28. No hardware acquired; Phase 1 incomplete. To revive: order 3× Heltec WiFi LoRa 32 V3 (~$105 total), reset phase dates in DEVELOPMENT_PLAN.md, and recommit. See DEVELOPMENT_PLAN.md for details. To archive: `gh repo archive jeffj1882/MANET` (manual decision — not executed automatically).
+
 Mobile Ad-hoc Network (MANET) development for civilian emergency response and disaster communications using Meshtastic LoRa mesh networking platform.
 
 ## Project Overview

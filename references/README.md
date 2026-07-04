@@ -1,6 +1,6 @@
 # References Folder
 
-This folder contains reference materials, standards, and documentation to support MANET development for bomb disposal operations.
+This folder contains reference materials, standards, and documentation to support MANET development for civilian emergency response and disaster communications.
 
 ## Folder Purpose
 
@@ -9,9 +9,8 @@ Per project instructions (CLAUDE.md):
 
 This directory serves as the authoritative source for:
 - OSINT documentation standards
-- HDS training references
-- Bomb disposal operational procedures
 - Meshtastic technical documentation
+- Emergency response procedures and standards
 - Industry standards and best practices
 
 ## Organization
@@ -45,7 +44,7 @@ All materials in this folder and referenced during development must adhere to OS
 ### High Priority
 - [ ] Meshtastic official documentation (download/link)
 - [ ] LoRa frequency regulations for operational regions
-- [ ] HDS bomb technician procedures and protocols
+- [ ] Emergency response procedures and protocols (FEMA, ICS standards)
 - [ ] OSINT intelligence report templates and standards
 - [ ] Hardware datasheets for selected devices
 
